@@ -1,5 +1,7 @@
 [assignment1](./assignment1)
 
+Name: resume
+
 Objective: Design a personal website
 
 Goal: Understand the concepts of HTML/HTML5, CSS and/or bootstrap, JavaScript (optional). And to demonstrate the ability to use the above tools to create a simple personal webpage.
@@ -8,7 +10,8 @@ Goal: Understand the concepts of HTML/HTML5, CSS and/or bootstrap, JavaScript (o
 
 [assignmet2](./assignment2)
 
-Tap Tap Bug - Web game
+Name: Tap Tap Bug - Web game
+
 Obejctive: Design a customised game in a team of 2
 
 Goal: To show the understanding of Javascript and able to work in team
@@ -16,6 +19,8 @@ Goal: To show the understanding of Javascript and able to work in team
 ---------------------------------------	
 
 [assignment3](./assignment3)
+
+Name: Required Reading
 
 Objective: Create a webpage in a team of 4
 
