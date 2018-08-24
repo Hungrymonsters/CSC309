@@ -1,4 +1,4 @@
-[a relative link](./assignment1)
+[assignment1](./assignment1)
 
 Objective: Design a personal website
 
@@ -6,7 +6,7 @@ Goal: Understand the concepts of HTML/HTML5, CSS and/or bootstrap, JavaScript (o
 
 --------------------------------------- 
 
-assignmet2
+[assignmet2](./assignment2)
 
 Obejctive: Design a customised game in a team of 2
 
@@ -14,7 +14,7 @@ Goal: To show the understanding of Javascript and able to work in team
 
 ---------------------------------------	
 
-assignment3
+[assignment3](./assignment3)
 
 Objective: Create a webpage in a team of 4
 
