@@ -8,6 +8,7 @@ Goal: Understand the concepts of HTML/HTML5, CSS and/or bootstrap, JavaScript (o
 
 [assignmet2](./assignment2)
 
+Tap Tap Bug - Web game
 Obejctive: Design a customised game in a team of 2
 
 Goal: To show the understanding of Javascript and able to work in team
