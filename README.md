@@ -1,4 +1,4 @@
-assignment1
+[a relative link](./assignment1)
 
 Objective: Design a personal website
 
