@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plato's Site</title>
+        <link rel="stylesheet" type"text/css" href="style.css" />
+    </head>
+
+    <body>
+
+        <div id="container">
+            <div id="header">
+                <h1>Plato Resume</h1>
+            </div>
+
+            <div id="content">
+                <div id="nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a class="selected" href="http://www.utoronto.ca/"> Education</a></li>
+                        <li><a class="selected" href="#course">Courses</a></li>                      
+                    </ul>
+                </div>
+
+                <div id="mainbody">
+                    <h2>Home page</h2>
+                        <div class="detail">
+                        <h3>Education</h3>
+                        <p class="detail">I have just done my second year in University of Toronto. And is now doing summer term.</p>
+                        <div id="course">
+                        <h3> Courses</h3>
+                        <p class="detail">I am now taking CSC236 and <a class="selected" href="http://www.cs.toronto.edu/~mashiyat/csc309/index.htm">CSC309</a>.</p>                                              </div>
+                        </div>
+                </div>
+
+                <div id="side">
+                    <h3>Contact Info:</h3>
+					<ul>
+                    <li>e-mail: plato.leung@mail.utoronto.ca</li>
+					<br>
+					<li>facebook: <a href="https://www.facebook.com/happyplatoleung">Click Here</a></li>
+					</ul>
+                </div>
+
+            </div>
+            <div id="footer">
+                Copyright &copy; Plato Leung
+				<div id="currentDate"></div>
+			</div>
+
+        </div>
+		<script>
+			var d = new Date();
+			document.getElementById("currentDate").innerHTML = d.toDateString();
+		</script>
+    </body>
+</html>

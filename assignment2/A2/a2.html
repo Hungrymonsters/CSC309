@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lan = "en">
+	<head>
+		<title> Tap Tap Bug </title>
+		<link href = 'style.css' type = 'text/css' rel = 'stylesheet' />
+		<script src = "tap.js" type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id = "startpg">
+			<h1 id = "title">
+				Tap Tap Bug
+			</h1>
+			
+			<form id = "difficulty" >
+				<input type = "radio" name = "level" id = "level1" checked> Level 1 
+				<input type = "radio" name = "level" id = "level2"> Level 2
+			</form>
+			
+			<h1 id = "start" >
+				Start!
+			</h1>
+
+			<h1 >
+				&nbsp &nbsp Hight Score:
+				<div id = "highscore">
+					
+				</div>
+
+			</h1>
+			<div id ="foodimg">
+				<img id="pizza" src="pizza.gif" alt="The Pizza">
+
+				<img id="salad" src="salad.gif" alt="The Salad">
+
+				<img id="burger" src="burger.gif" alt="The Burger">
+
+				<img id="cake" src="cake.gif" alt="The Cake">
+
+				<img id="pie" src="pie.gif" alt="The Pie">
+			</div>
+			<div id ="bugimg">
+				<img id = "red_bug" width="10" height = "40" src="red_bug.gif" alt="Red Bug">
+				<img id = "orange_bug" width="10" height = "40" src="orange_bug.png" alt="Orange Bug">
+				<img id = "black_bug" width="10" height = "40" src="black_bug.png" alt="Black Bug">
+
+			</div>
+		</div> 
+		<div id = "gamingpg">
+			<div id = "infobar">
+				<div id = "infoleft">
+					<div id ="time">
+						60
+					</div>
+					<div id = "pause" >
+						Pause
+					</div>
+				</div>
+				<div id = "score"> 
+				</div>
+			</div>
+			<canvas id = "viewport" width = "400" height = "600" style = "border: solid ;"></canvas>
+
+		</div>
+	<div id="gameover">
+		<h3 id = "newhigh">
+			New High-Score !
+		</h3>
+		<div id = "showscore">
+		</div>
+		<div id = "restart">
+			RESTART
+		</div>
+		<div id = "home">
+			HOME
+		</div>
+	</div>
+
+	</body>
+	
+
+</html>

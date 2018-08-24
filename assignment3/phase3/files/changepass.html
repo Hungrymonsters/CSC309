@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lan ='en' >
+<head>
+
+<!-- Bootstraps , on top b/c want the style to load when web pg starts -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> 
+
+<link href = 'style.css' type = 'text/css' rel = 'stylesheet' />
+
+
+	<title> Required Reading</title>
+</head>
+
+<body>
+	<div class = "container" ng-app = "">
+		
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="home.html">Required Reading</a>
+		    </div>
+		    <div>
+		      <ul class="nav navbar-nav">
+		        <li><a href="profile.html">Username</a></li>
+		        <li><a href="about.html">About & FAQ</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		      	 <li><a href="index.html">Logout</a></li> 
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div class = "page-header">
+				<h3>Change Password</h3>
+		</div>
+		<div class = "jumbotron">
+			<!-- Inputs for password change-->
+			<div class="form-group">
+			  <label for="oldpass">Old Password:</label>
+			  <input type="password" class="form-control" id="oldpass">
+			</div>
+			<div class="form-group">
+			  <label for="newpass">New Password:</label>
+			  <input type="password" class="form-control" id="newpass">
+			</div>
+			<div class="form-group">
+			  <label for="newpassc"> Re-enter New Password:</label>
+			  <input type="password" class="form-control" id="newpassc">
+			</div>
+			<a href="profile.html"> 
+				<button type="button" class="btn btn-default">
+					Cancel
+				</button>
+			</a>
+			<div class = "pull-right">
+				<a href="profile.html"> 
+					<button type="button" class="btn btn-default" >
+						Confirm
+					</button>
+				</a>
+			</div>
+		</div>
+
+	</div>
+	
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js">
+	</script>
+<script src = "controllers/register.js"></script>
+</body>
+
+</html>

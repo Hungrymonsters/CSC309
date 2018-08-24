@@ -1,0 +1,102 @@
+#startpg{
+	padding-top: 150px;
+	width:400px;
+	height:500px;
+	border-style: solid;
+	position: relative;
+	background-color: #99D6AD;
+}
+#start{
+	border-style: double;
+	text-align: center;
+	border-radius: 10px 10px;
+	width:100px;
+	margin-left: 150px;
+
+}
+#title{
+	text-align: center;
+
+}
+#difficulty{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#gamingpg{
+	display:none;
+}
+#infoleft{
+	float:left;
+}
+#time{
+	float:left;
+	padding-left:10px;
+	color:#CCCC7A;
+}
+#pause{
+	float:right;
+	margin-left: 140px;
+	color:#CCCC7A;
+}
+#score{
+	float:right;
+	margin-right:50px;
+	color:#CCCC7A;
+}
+#infobar{
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right: solid;
+	width :400px;
+	height : 30px;
+	padding-top:20px;
+	background-color: #3D3125;
+}
+#foodimg{
+	display:none;
+}
+#viewport{
+	background-image: url("wood.png");
+}
+#bugimg{
+	display: none;
+}
+#highscore{
+	float:right;
+	margin-right: 100px;
+}
+#gameover{
+	text-align: center;
+	padding-top: 50px;
+	margin-left: 100px;
+	margin-top:100px;
+	width: 200px;
+	height:220px;
+	position: absolute;
+	z-index: 10;
+	border-style: solid;
+	display:none;
+	background-color: #99D6AD;
+
+
+}
+#home{
+	border-style: double;
+	margin-top: 20px;
+	width:60px;
+	margin-left: 70px;
+}
+#restart{
+	width:80px;
+	margin-left: 60px;
+	border-style: double;
+	margin-top:30px;
+}
+#showscore{
+	text-align: center;
+	width:80px;
+	margin-left:60px;
+}
+#newhigh{
+	display:none;
+}

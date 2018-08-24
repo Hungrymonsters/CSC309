@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lan ='en' >
+<head>
+<meta name = 'viewport' content='width=device-width, initial-scale=1'>
+<!-- Bootstraps , on top b/c want the style to load when web pg starts -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> 
+
+<link href = 'style.css' type = 'text/css' rel = 'stylesheet' />
+
+
+	<title> Required Reading</title>
+</head>
+
+<body>
+	<!--Top Nav bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html">Required Reading</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="profile.html">Username</a></li>
+        <li><a href="about.html">About & FAQ</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      	 <li><a href="index.html">Logout</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+	<div class = "container">
+		<!-- Search header-->
+		<div class = "page-header">
+				<h3>Search for Textbook <span class="glyphicon glyphicon-search"></span> </h3>
+
+		</div>
+
+		<!-- Search bar-->
+		<div class = "jumbotron">
+
+
+			<form class="form-inline" role="form">
+				<select>
+					<option value="bycourse">Course Code</option>
+					<option value="bytitle">Book Title</option>
+				</select>
+				<div class="form-group">
+				      <input class="form-control" id="focusedInput" type="text" size="40">
+				<a href="search.html"> 
+					<button type="button" class="btn btn-default">
+						Go
+					</button>
+					</a>
+				</div>
+			</form>
+
+		</div>
+
+		<!--BestSellers-->
+		<div class = "page-header">
+				<h3>Best Sellers</h3>
+		</div>
+		<div class = "jumbotron">
+
+		</div>
+
+
+
+	</div>
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js">
+	</script>
+<script src = "controllers/register.js"></script>
+</body>
+
+</html>
